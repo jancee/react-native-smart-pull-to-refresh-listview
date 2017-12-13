@@ -6,7 +6,6 @@
  */
 
 import React, {
-    PropTypes,
     Component,
 } from 'react'
 import {
@@ -18,6 +17,7 @@ import {
     Platform,
     Dimensions,
 } from 'react-native'
+import PropTypes from 'prop-types';
 
 //import TimerEnhance from '../react-native-smart-timer-enhance'
 import TimerEnhance from 'react-native-smart-timer-enhance'
